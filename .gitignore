@@ -1,0 +1,11 @@
+# Keil 编译产物
+Objects/
+Listings/
+build_log.txt
+
+# Keil IDE 界面状态文件（每台电脑不同）
+Project.uvguix.*
+
+# 日志和锁文件
+*.log
+.vscode/uv4.log.lock

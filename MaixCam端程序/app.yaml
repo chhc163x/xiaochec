@@ -1,0 +1,15 @@
+id: roma_recognizer
+name: Roma Recognizer
+name[zh]: 罗马数字识别
+version: 1.0.0
+author: 李祚德
+icon: ''
+desc: Recognize roman numeral cards and send the result to STM32 over UART
+desc[zh]: 识别罗马数字卡片，通过串口(115200 8N1)把目标号 1/3/5/7 发给 STM32
+exclude:
+  - __pycache__
+  - build
+  - dist
+  - .gitignore
+files:
+  - main.py
